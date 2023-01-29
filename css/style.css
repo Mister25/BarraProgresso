@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    background-color: #18181b;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.ablidades h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+}
+.barraProgresso{
+    background-color: #959595;
+    width: 600px;
+    border-radius: 5px;
+    height: 10px;
+}
+.barraProgresso div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+.barraProgresso div span{
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.html{
+    background: #e91e63;
+    animation: html 2.5s linear forwards;
+}
+.c-sharp{
+    background: #9c2730;
+    animation: c-sharp 2.5s linear forwards;
+}
+.c{
+    background: darkviolet;
+    animation: c 2.5s linear forwards;
+}
+.css{
+    background: #cddc39;
+    animation: css 2.5s linear forwards;
+}
+.python{
+    background: #ffeb3b;
+    animation: python 2.5s linear forwards;
+}
+.javascript{
+    background: #00bcd4;
+    animation: javascript 2.5s linear forwards;
+}
+.sql{
+    background: darkcyan;
+    animation: sql 2.5s linear forwards;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.c-sharp span{
+    border: 1px solid #9c2730;
+}
+.c span{
+    border: 1px solid darkviolet;
+}
+.css span{
+    border: 1px solid #cddc39;
+}
+.python span{
+    border: 1px solid #ffeb3b;
+}
+.sql span{
+    border: 1px solid darkcyan;
+}
+.javascript span{
+    border: 1px solid #00bcd4;
+}
+/*animatiom*/
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 60%;
+    }
+}
+@keyframes c{
+    100%{
+        width: 69%;
+    }
+}
+@keyframes sql{
+    100%{
+        width: 55%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 49%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 45%;
+    }
+}
+@keyframes c-sharp{
+    100%{
+        width: 77%;
+    }
+}
